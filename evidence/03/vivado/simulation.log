@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+LAB3_PIEZO_PASS edges=5
+$finish called at time : 551 ns : File "C:/Users/a2391/lab3_21_piezo/sim/tb_piezo.sv" Line 47

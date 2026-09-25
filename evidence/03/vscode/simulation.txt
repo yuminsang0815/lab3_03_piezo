@@ -1,0 +1,10 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab3_21_piezo\src -I C:\Users\a2391\lab3_21_piezo\sim -s tb_piezo -o C:\Users\a2391\lab3_21_piezo\build\sim\run-53ffada112c94b80bf08e3703561e3bd\sim.vvp C:\Users\a2391\lab3_21_piezo\src\lab3_piezo.v C:\Users\a2391\lab3_21_piezo\sim\tb_piezo.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab3_21_piezo\build\sim\run-53ffada112c94b80bf08e3703561e3bd\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB3_PIEZO_PASS edges=5
+C:\Users\a2391\lab3_21_piezo\sim\tb_piezo.sv:47: $finish called at 551000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab3_21_piezo\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, pressany key to close it.
